@@ -1,0 +1,1 @@
+# ads-translator-google-app
