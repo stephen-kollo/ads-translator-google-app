@@ -1,0 +1,70 @@
+<div>
+  <div id="accordion">
+    <div class="card">
+      <div class="card-header" id="original-language-heading">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#original-language" aria-expanded="false" aria-controls="original-language">
+            Original Language Select
+          </button>
+        </h5>
+      </div>
+      <div id="original-language" class="collapse" aria-labelledby="original-language-heading" data-parent="#accordion">
+        <div class="card-body">
+          <fieldset class="group"> 
+              <ul id="original-language-checkboxes-list" class="checkbox"> 
+                <li>Loading..</li> 
+              </ul> 
+            </fieldset> 
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="translate-language-heading">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#translate-language" aria-expanded="false" aria-controls="translate-language">
+            Translate Languages Select
+          </button>
+        </h5>
+      </div>
+      <div id="translate-language" class="collapse" aria-labelledby="translate-language-heading" data-parent="#accordion">
+        <div class="card-body">
+          <div class="card card-body">
+            <fieldset class="group"> 
+              <ul id="translation-language-checkboxes-list" class="checkbox"> 
+                <li>Loading..</li> 
+              </ul> 
+            </fieldset> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    fieldset.group  { 
+      margin: 0; 
+      padding: 0; 
+    } 
+
+    ul.checkbox  { 
+      margin: 0; 
+      padding: 0; 
+      margin-left: 20px; 
+      list-style: none; 
+    } 
+
+    ul.checkbox li input { 
+      margin-right: .25em; 
+    } 
+
+    ul.checkbox li { 
+      border: 1px transparent solid; 
+      display:inline-block;
+      width:12em;
+    } 
+
+    ul.checkbox li label { 
+      margin-left: ; 
+    } 
+  </style>
+</div>
