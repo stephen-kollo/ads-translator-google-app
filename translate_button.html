@@ -1,0 +1,35 @@
+<div>
+  <!-- Button trigger modal -->
+  <input type="button" value="Translate" class="btn btn-success btn-lg btn-block float-right" id='translate-button' data-toggle="modal" data-target="#translate-modal"/>
+          
+  <!-- Modal -->
+  <div class="modal fade" id="translate-modal" tabindex="-1" role="dialog" aria-labelledby="translate-modalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="translate-modalLabel">Ads Translation</h5>
+        </div>
+        <div id="create-translate-modal-body" style="height: 200px;" class="modal-body">
+          <div style="display: none;" id="translate-created">
+            <p id="processing-status" style="color: gray;">Translation done</p>
+            <p id="processing-errors-translate" style="color: grey; font-size: 12px;"><strong>Processing errors:</strong><br>none</p>
+          </div>
+          <div id="loading-animation" style="margin-top: 30px; margin-bottom: 30px;">
+            <div class="d-flex justify-content-center m-3">
+              <div style="width: 50px; height: 50px;" class="spinner-border text-primary" role="status" >
+                <span class="sr-only"></span>
+              </div>
+            </div>
+            <p style="text-align: center; color: grey; font-size: 12px; margin-bottom: 0px; padding-bottom:0px;">Translating text...</p>
+            <p style="text-align: center; color: grey; font-size: 12px;">Please do not close the window</p>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button id="open-translate-button" class="btn btn-secondary" onclick="#" type="button" disabled>
+            <span class="sr-only">Open Translation Sheet</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
